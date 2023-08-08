@@ -1,0 +1,6 @@
+package toy1;
+
+public class SideMenu {
+	String name, kind, calo;
+	
+}

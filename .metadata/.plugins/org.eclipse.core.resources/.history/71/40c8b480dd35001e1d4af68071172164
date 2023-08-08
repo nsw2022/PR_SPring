@@ -1,0 +1,6 @@
+package toy1;
+
+public class Buger {
+	String bugerName, bugerCalo;
+	Patty kindPatty;
+}

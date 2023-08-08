@@ -1,0 +1,19 @@
+package toy1;
+
+public class SetHambuger {
+	Buger buger;
+	SideMenu sideMenu;
+	Drink drink;
+	public SetHambuger() {
+		super();
+	}
+	
+	public SetHambuger(Buger buger, SideMenu sideMenu, Drink drink) {
+		super();
+		this.buger = buger;
+		this.sideMenu = sideMenu;
+		this.drink = drink;
+	}
+	
+	
+}

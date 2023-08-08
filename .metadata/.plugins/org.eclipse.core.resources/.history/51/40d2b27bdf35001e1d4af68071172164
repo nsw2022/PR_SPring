@@ -1,0 +1,23 @@
+package toy1;
+
+public class Buger {
+	String bugerName, bugerCalo;
+	Patty kindPatty;
+	
+	public void setBugerName(String bugerName) {
+		this.bugerName = bugerName;
+	}
+	public void setBugerCalo(String bugerCalo) {
+		this.bugerCalo = bugerCalo;
+	}
+	public void setKindPatty(Patty kindPatty) {
+		this.kindPatty = kindPatty;
+	}
+	
+	@Override
+	public String toString() {
+		return "Buger [bugerName=" + bugerName + ", bugerCalo=" + bugerCalo + ", kindPatty=" + kindPatty + "]";
+	}
+	
+	
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.springframework.org/schema/beans"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	<bean class="toy1.Patty" name="p1">
+		<property name="pattyName" value="치킨"/>
+	</bean>
+	
+	<bean class="toy1.Patty" name="p2">
+		<property name="pattyName" value="돼지고기"/>
+	</bean>
+	
+	<bean class="toy1.Patty" name="p3">
+		<property name="pattyName" value="소고기"/>
+	</bean>
+	
+	
+	<bean class="toy1.Buger" name="b1">
+		<property name="bugerName" value="치킨버거"/>
+		<property name="kindPatty" ref="p1"/>
+		<property name="bugerCalo" value="400"/>
+	</bean>
+	<bean class="toy1.Buger" name="b2">
+		<property name="bugerName" value="빅맥"/>
+		<property name="kindPatty" ref="p2"/>
+		<property name="bugerCalo" value="500"/>
+	</bean>
+	<bean class="toy1.Buger" name="b3">
+		<property name="bugerName" value="한우라네"/>
+		<property name="kindPatty" ref="p3"/>
+		<property name="bugerCalo" value="600"/>
+	</bean>
+	
+</beans>
